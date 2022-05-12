@@ -15,7 +15,6 @@ class DiaryEntry
 
   def word_count
     word_count_total = @contents.split(" ").count
-    binding.irb
     return word_count_total
   end
 

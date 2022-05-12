@@ -5,8 +5,8 @@ def get_most_common_letter(text)
   end
   counter.delete(" ")
   counter_array = counter.to_a.sort_by { |key,value| value }
-  binding.irb
   counter_array.max_by{|key,value| value }[0]
+  
 end
 
 puts get_most_common_letter("the roof, the roof, the roof is on fire!")
